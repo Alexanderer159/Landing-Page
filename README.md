@@ -1,2 +1,2 @@
 # Landing-Page
-First Landing Page
+First time making a Landing Page
