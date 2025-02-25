@@ -2,6 +2,10 @@
 
 #all{
 width:100%;
+font-family: "Varela Round", serif;
+font-weight:lighter;
+font-style: normal;
+background-color: rgb(218, 218, 218);
 }
 
 #one {
@@ -9,6 +13,7 @@ width:100%;
 }
 #one p{
     margin-left: 10px;
+    font-size: large;
 }
 #one button{
     border-radius: 4px;
@@ -20,7 +25,8 @@ width:100%;
     color: white;
     font-weight: bold;
     position: relative;
-    left: 1680px;
+    left: 1650px;
+    border-color: rgb(34, 123, 255);
 }
 
 #two{
@@ -31,7 +37,6 @@ height:1000px;
     height: 100%;
     width: 100%;
     position: relative;
-
     display: block;
     object-fit: cover;
 }
@@ -58,20 +63,22 @@ border-radius: 5px;
 background-color: rgb(34, 123, 255);
 color: white;
 font-weight: bold;
+border-color: rgb(34, 123, 255);
 }
 
 #three {
     display:flex;
+    align-items: center;
+    justify-content: center;
 }
-h2{
-    font-size: x-large;
-}
+
 #three1 {
     position: relative;
     top: 50%;
     text-align: center;
-    Width: 33%;
+    Width: 25%;
     height: 500px;
+    margin-right: 30px;
 }
 #three1 i{
     margin-top: 50px;
@@ -88,7 +95,7 @@ font-size: xx-large;
     position: relative;
     top: 50%;
     text-align: center;
-    Width: 33%;
+    Width: 25%;
     height: 500px;
 }
 #three2 i{
@@ -106,8 +113,9 @@ font-size: xx-large;
     position: relative;
     top: 50%;
     text-align: center;
-    Width: 33%;
+    Width: 25%;
     height: 500px;
+    margin-left: 30px;
 }
 #three3 i{
     margin-top: 50px;
@@ -123,24 +131,227 @@ font-size: xx-large;
 
 #four {
     display:flex;
+    height: 500px;
 }
-
+#four1 {
+    Width: 50%;
+}
+#four1 p{
+font-size: xx-large;
+}
+#foursq {
+margin: 50px;
+}
+#four2 {
+    height: 500px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+}
+#four2 video{
+    width:100%;
+    border-radius: 10px;
+    display:block;
+    object-fit: cover;
+}
 #five {
     display:flex;
+    height: 500px;
 }
-
+#five1 {
+    height: 500px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    object-fit: fill;
+}
+#five1 video{
+    width:100%;
+    border-radius: 10px;
+    display:block;
+    object-fit: cover;
+}
+#five2 {
+    Width: 50%;
+}
+#five2 p{
+    font-size: xx-large;
+    }
+#fivesq {
+    margin: 50px;
+    }
 #six {
     display:flex;
+    height:500px;
+}
+#six1 {
+    Width: 50%;
+}
+#six1 p{
+    font-size: xx-large;
+    }
+#sixsq {
+    margin: 50px;
+    }
+#six2 {
+    height: 500px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    object-fit: fill;
+}
+#six2 video{
+    width:100%;
+    border-radius: 10px;
+    display:block;
+    object-fit: cover;
 }
 
 #seven {
+    height:500px;
+    width:100%;
+}
+#seven123 {
+    width:100%;
+    height:100%;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#seven123 h1{
+    position: relative;
+    bottom: 40px;
+}
+#sevenall {
     display:flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 25px;
+    height:350px;
+}
+#seven1 {
+    height:100%;
+    width:20%;
+    margin-right: 50px;
+}
+#seven1 img{
+    width: 150px;
+    height:200px;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+#seven2 {
+    height:100%;
+    width:20%
+}
+#seven2 img{
+    width: 150px;
+    height:200px;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+}
+#seven3 {
+    height:100%;
+    width:20%;
+    margin-left: 50px;
+}
+#seven3 img{
+    width: 150px;
+    height:200px;
+    position: relative;
+    display: flex;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+
 }
 
-#eight {
-    display:flex;
+#eight{
+    width: 100%;
+    height:300px;
+    align-items: center;
+    justify-content: center;
+    }
+#eight video{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        display:block;
+        object-fit: cover;
+    }
+#eight input{
+    Width:600px;
+    height:45px;
+    border-radius: 5px;
+    position: relative;
+    bottom:30px;
+    }
+#eight button{
+    height:50px;
+    width:100px;
+    border-radius: 5px;
+    background-color: rgb(34, 123, 255);
+    color: white;
+    font-weight: bold;
+    position: relative;
+    bottom:30px;
+    border-color: rgb(34, 123, 255);
+    }
+#eight1 {
+    position: relative;
+    bottom:300px;
+    text-align: center;
+    font-size:xx-large;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 1200px;
+    margin: auto;
+    height: 200px;
 }
 
 #nine {
+    
+}
+#nine123 {
     display:flex;
+}
+#nine12 {
+    margin-left: 15px;
+}
+#nine1 {
+    display:flex;
+    color: rgb(34, 123, 255);
+}
+#nine1 p{
+    padding: 10px;
+}
+#nine2 {
+color: gray;
+font-weight: lighter;
+font-size: x-small;
+}
+#nine3 {
+float:right;
+position:relative;
+left:1270px;
+text-align: right;
+top:25px;
+height:50px;
+}
+#nine3 i{
+font-size: 40px;
+margin: auto;
+padding: 10px;
+color: rgb(34, 123, 255);
 }
